@@ -1,0 +1,18 @@
+{
+  "name": "load-script-body",
+  "version": "1.0.0",
+  "description": "Dynamic script loader for browser body component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "load",
+    "script",
+    "body",
+    "load-script"
+  ],
+  "author": "AbhilashSrivastava",
+  "license": "ISC"
+}
