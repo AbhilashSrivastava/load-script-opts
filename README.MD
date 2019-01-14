@@ -7,13 +7,13 @@
 via npm
 
 ```
-$ npm install load-script-body
+$ npm install load-script-opts
 ```
 
 ## API
 `load-script` appends a `script` node to the `<head>` or `<body>` element in the dom.
 
-`require('load-script-body')` returns a function of the following interface:  `function(url[, opts][, cb]) {}`
+`require('load-script-opts')` returns a function of the following interface:  `function(url[, opts][, cb]) {}`
 
 
 ### [, opts]
@@ -35,7 +35,7 @@ A callback function of the following interface: `function(err, script) {}` where
 ## Example Usage
 
 ```javascript
-var load = require('load-script-body')
+var load = require('load-script-opts')
 
 load('something.js', function (err, script) {
   if (err) {
