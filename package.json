@@ -1,6 +1,6 @@
 {
-  "name": "load-script-body",
-  "version": "1.0.0",
+  "name": "load-script-opts",
+  "version": "1.0.1",
   "description": "Dynamic script loader for browser body component",
   "main": "index.js",
   "scripts": {
